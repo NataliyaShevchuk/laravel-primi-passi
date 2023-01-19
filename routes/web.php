@@ -14,5 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    
+    $hello = [
+        "greeting" => "hello",
+        "object" => "world",
+        "subject" => "Mario Rossi",
+    ];
+
+    return view('home', [
+        "hello" => $hello,
+    ]);
 });
+
