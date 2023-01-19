@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(233,236,50);
+    background: radial-gradient(circle, rgba(233,236,50,1) 0%, rgba(252,77,70,1) 55%, rgba(0,0,0,1) 97%);
+}
+
+.mt-14{
+    margin-top: 14.5rem;
+}
+
+.a-container{
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.7px);
+    -webkit-backdrop-filter: blur(13.7px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    color: white;
+}
+
+.my-tag-a{
+    text-decoration: none;
+    color: white;
+}

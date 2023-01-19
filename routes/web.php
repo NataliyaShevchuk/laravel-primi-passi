@@ -26,3 +26,33 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/homepage', function () {
+
+
+    return view('homepage');
+})->name("homepage");
+
+Route::get('/italian', function () {
+
+
+    return view('italian');
+})->name("italian");
+
+Route::get('/spain', function () {
+
+
+    return view('spain');
+})->name("spain");
+
+Route::get('/french', function () {
+
+
+    return view('french');
+})->name("french");
+
+Route::get('/german', function () {
+
+
+    return view('german');
+})->name("german");
+
